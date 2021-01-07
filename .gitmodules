@@ -1,0 +1,3 @@
+[submodule "packages/subModule"]
+	path = packages/subModule
+	url = git@github.com:kelvin-ww/sub-module.git
