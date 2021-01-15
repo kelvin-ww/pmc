@@ -2,14 +2,9 @@
     "name": "monorepo-project",
     "private": true,
     "workspaces": [
-        "packages/*",
-        "./"
+        "packages/*"
     ],
     "devDependencies": {
         "lerna": "^3.22.1"
-    },
-    "dependencies": {
-        "@zww/add": "^1.0.0",
-        "@zww/log": "^1.0.0"
     }
 }
