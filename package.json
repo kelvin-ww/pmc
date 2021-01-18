@@ -2,9 +2,13 @@
     "name": "monorepo-project",
     "private": true,
     "workspaces": [
-        "packages/*",
+        "packages/test/packages/*",
+        "packages/notFound/packages/*",
         "./"
     ],
+    "scripts": {
+        "dev": "node src"
+    },
     "devDependencies": {
         "lerna": "^3.22.1"
     },
