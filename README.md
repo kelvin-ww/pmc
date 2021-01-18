@@ -14,8 +14,10 @@ git submodule init
 git submodule update
 或 git clone --recursive <path>
 
+### 普通更新
+
+git submodule update
+
 ### 添加 subModule
 
 git submodule add <local-absolute-path: b> <path>
-
-###
