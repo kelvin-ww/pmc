@@ -1,3 +1,4 @@
 [submodule "packages/test"]
 	path = packages/test
 	url = git@github.com:kelvin-ww/packages.git
+	ignore = all

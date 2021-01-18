@@ -16,8 +16,14 @@ git submodule update
 
 ### 普通更新
 
-git submodule update
+git submodule foreach git checkout <branch>
+git submodule foreach git submodule update
 
 ### 添加 subModule
 
 git submodule add <local-absolute-path: b> <path>
+
+## .gitmodules
+
+ignore = dirty  
+ignore = all
